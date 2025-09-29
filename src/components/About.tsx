@@ -63,17 +63,35 @@ const About = () => {
             {/* Education */}
             <div className="mt-8">
               <h4 className="text-lg font-semibold text-foreground mb-4">Education</h4>
-              <div className="card-glass p-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center">
-                    <GraduationCap className="w-6 h-6 text-primary-foreground" />
+              <div className="space-y-4">
+                <div className="card-glass p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center">
+                      <GraduationCap className="w-6 h-6 text-primary-foreground" />
+                    </div>
+                    <div className="flex-1">
+                      <h5 className="text-lg font-semibold text-foreground">
+                        B.Tech in Computer Science
+                      </h5>
+                      <p className="text-foreground-muted">SR University</p>
+                      <p className="text-sm text-foreground-muted">2024 - 2028</p>
+                      <div className="mt-2">
+                        <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-accent text-accent-foreground">
+                          CGPA: 9.95
+                        </span>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <h5 className="text-lg font-semibold text-foreground">
-                      B.Tech in Computer Science
-                    </h5>
-                    <p className="text-foreground-muted">SR University</p>
-                    <p className="text-sm text-foreground-muted">2024 - 2028</p>
+                </div>
+                
+                <div className="grid sm:grid-cols-2 gap-4">
+                  <div className="card-glass p-4">
+                    <h6 className="font-semibold text-foreground mb-1">Intermediate (12th)</h6>
+                    <p className="text-sm text-foreground-muted mb-2">94.3%</p>
+                  </div>
+                  <div className="card-glass p-4">
+                    <h6 className="font-semibold text-foreground mb-1">10th Grade</h6>
+                    <p className="text-sm text-foreground-muted mb-2">CGPA: 9.7</p>
                   </div>
                 </div>
               </div>
