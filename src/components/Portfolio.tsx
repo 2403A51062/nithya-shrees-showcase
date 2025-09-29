@@ -134,9 +134,9 @@ const Portfolio = () => {
       {/* Action Buttons */}
       <div className="flex gap-3 mt-auto">
         {project.title === "Expense Tracker" ? (
-          <Button size="sm" variant="outline" className="w-full">
-            <Github className="w-4 h-4 mr-2" />
+          <Button size="sm" variant="outline" className="w-full" asChild>
             <a href="https://github.com/2403A51062/ExpenseTeacker.git" target="_blank" rel="noopener noreferrer">
+              <Github className="w-4 h-4 mr-2" />
               Source Code
             </a>
           </Button>
