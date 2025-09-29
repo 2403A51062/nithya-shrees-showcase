@@ -55,8 +55,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "nithyashree.siripuram@example.com",
-      href: "mailto:nithyashree.siripuram@example.com"
+      value: "nithyashreesiripuram5@gmail.com",
+      href: "mailto:nithyashreesiripuram5@gmail.com"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
@@ -230,7 +230,7 @@ const Contact = () => {
                   <Github size={24} />
                 </a>
                 <a
-                  href="mailto:nithyashree.siripuram@example.com"
+                  href="mailto:nithyashreesiripuram5@gmail.com"
                   className="w-14 h-14 rounded-xl bg-gradient-accent flex items-center justify-center text-accent-foreground hover:shadow-accent transition-all duration-300 hover:scale-110"
                 >
                   <Mail size={24} />

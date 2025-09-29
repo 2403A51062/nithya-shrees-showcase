@@ -34,7 +34,7 @@ const Footer = () => {
                 <Github size={18} />
               </a>
               <a
-                href="mailto:nithyashree.siripuram@example.com"
+                href="mailto:nithyashreesiripuram5@gmail.com"
                 className="w-10 h-10 rounded-lg bg-gradient-accent flex items-center justify-center text-accent-foreground hover:shadow-accent transition-all duration-300 hover:scale-110"
               >
                 <Mail size={18} />
@@ -74,10 +74,10 @@ const Footer = () => {
             <div className="space-y-2 text-foreground-muted">
               <p>Hyderabad, India</p>
               <a
-                href="mailto:nithyashree.siripuram@example.com"
+                href="mailto:nithyashreesiripuram5@gmail.com"
                 className="block hover:text-primary transition-colors duration-300"
               >
-                nithyashree.siripuram@example.com
+                nithyashreesiripuram5@gmail.com
               </a>
               <p className="text-sm mt-4">
                 Available for internships, projects, and collaboration opportunities.
