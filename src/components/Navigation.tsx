@@ -37,8 +37,10 @@ const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button className="btn-accent">
-              Download CV
+            <Button className="btn-accent" asChild>
+              <a href="/Nithya_Shree_Siripuram.pdf" download>
+                Download CV
+              </a>
             </Button>
           </div>
 
@@ -70,8 +72,10 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button className="btn-accent w-full">
-                  Download CV
+                <Button className="btn-accent w-full" asChild>
+                  <a href="/Nithya_Shree_Siripuram.pdf" download>
+                    Download CV
+                  </a>
                 </Button>
               </div>
             </div>
