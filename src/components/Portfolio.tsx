@@ -141,16 +141,10 @@ const Portfolio = () => {
             </a>
           </Button>
         ) : (
-          <>
-            <Button size="sm" className="btn-accent flex-1">
-              <ExternalLink className="w-4 h-4 mr-2" />
-              View Project
-            </Button>
-            <Button size="sm" variant="outline" className="flex-1">
-              <Github className="w-4 h-4 mr-2" />
-              Source Code
-            </Button>
-          </>
+          <Button size="sm" variant="outline" className="w-full">
+            <Github className="w-4 h-4 mr-2" />
+            Source Code
+          </Button>
         )}
       </div>
             </Card>
