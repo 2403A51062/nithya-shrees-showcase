@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, ArrowDown } from "lucide-react";
-import profileImage from "@/assets/nithya-new-photo.jpg";
+import profileImage from "@/assets/nithya-profile-full.jpg";
 
 const Hero = () => {
   return (
@@ -69,7 +69,7 @@ const Hero = () => {
                 <img
                   src={profileImage}
                   alt="Nithya Shree - Computer Science Student"
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               {/* Decorative ring */}
