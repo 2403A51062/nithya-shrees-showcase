@@ -4,7 +4,7 @@ import profileImage from "@/assets/nithya-profile-full.jpg";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Background Decorative Elements */}
       <div className="absolute inset-0">
         <div className="blob w-72 h-72 top-20 left-10 bg-gradient-primary floating"></div>
@@ -18,8 +18,8 @@ const Hero = () => {
           <div className="text-center lg:text-left">
             <div className="mb-6">
               <p className="text-lg text-foreground-muted mb-2">Hello, I'm</p>
-              <h1 className="text-5xl lg:text-7xl font-bold text-gradient mb-4">
-                Nithya Shree
+              <h1 className="text-4xl lg:text-6xl font-bold text-gradient mb-4">
+                Siripuram Nithya Shree
               </h1>
               <h2 className="text-2xl lg:text-3xl font-semibold text-foreground mb-6">
                 Aspiring Software Engineer
