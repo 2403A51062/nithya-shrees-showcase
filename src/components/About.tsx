@@ -32,9 +32,6 @@ const About = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-gradient mb-6">
             About Me
           </h2>
-          <p className="text-xl text-foreground-muted max-w-3xl mx-auto">
-            Designing Solutions, Not Just Visuals
-          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">

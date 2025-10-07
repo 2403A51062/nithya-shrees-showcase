@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, ArrowDown } from "lucide-react";
-import profileImage from "@/assets/nithya-profile-new.jpg";
+import profileImage from "@/assets/nithya-new-photo.jpg";
 
 const Hero = () => {
   return (
@@ -65,7 +65,7 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-primary/20">
+              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-lg overflow-hidden shadow-2xl border-4 border-primary/20">
                 <img
                   src={profileImage}
                   alt="Nithya Shree - Computer Science Student"
@@ -73,7 +73,7 @@ const Hero = () => {
                 />
               </div>
               {/* Decorative ring */}
-              <div className="absolute -inset-4 rounded-3xl bg-gradient-primary opacity-20 animate-pulse"></div>
+              <div className="absolute -inset-4 rounded-lg bg-gradient-primary opacity-20 animate-pulse"></div>
             </div>
           </div>
         </div>
